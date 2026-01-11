@@ -9,10 +9,10 @@ public class Aula04Operadores {
         System.out.println("Resultado = " + sum);
 
         // A RAZÃO ENTRE DOIS NUMEROS INTEIROS SEMPRE RETORNA UM NUMERO INTEIRO
-        double ratio = n1 / n2; // retorna 0.0
+        double ratio = n1 / n2; // retorna 0
         System.out.println(ratio);
         ratio = (double) n1 / n2; /* "converte" n1 para double, assim o resultado sera double;
-                                  obs: só um precisa ser double, casting aqui é feio, mas funciona */
+                                  obs: só um precisa ser double, casting aqui é considerado feio, mas funciona */
         System.out.println(ratio);
 
 

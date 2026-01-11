@@ -5,7 +5,7 @@ public class Aula06EstruturasDeRepetição {
         // while, do while, for
         int count = 0;
         while (count < 10) {
-            System.out.println(++count);
+            System.out.println(++count); // achei interessante dar ênfase nessa funcionalidade do "++"
         }
         // aqui funciona tudo igual em C
     }
