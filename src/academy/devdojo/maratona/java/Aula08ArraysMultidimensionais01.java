@@ -1,6 +1,6 @@
 package academy.devdojo.maratona.java;
 
-public class Aula08ArraysMultidimensionais {
+public class Aula08ArraysMultidimensionais01 {
     public static void main(String[] args) {
         int[][] month = new int[3][3];
 

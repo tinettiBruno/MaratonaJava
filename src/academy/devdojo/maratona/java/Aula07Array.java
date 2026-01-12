@@ -16,5 +16,11 @@ public class Aula07Array {
         System.out.println(idades[0]);
         System.out.println(idades[1]);
         System.out.println(idades[2]);
+
+
+        String[] names = {"Tenente Havoc", "Coronel Hughes", "Tenente-Coronel Mustang"};
+        for (String name : names) { // foreach
+            System.out.println(name);
+        }
     }
 }
