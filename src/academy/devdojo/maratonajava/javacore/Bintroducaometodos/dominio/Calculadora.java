@@ -15,4 +15,11 @@ public class Calculadora {
         int multi = a*b;
         System.out.println(a + " * " + b + " = " + multi);
     }
+
+    public double divideTwoNumbers(double a, double b) {
+        if (b == 0) {
+            return 0;
+        }
+        return a/b;
+    }
 }
