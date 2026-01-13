@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java;
+package academy.devdojo.maratonajava.introducao;
 
 public class Aula08ArraysMultidimensionais02 {
     public static void main(String[] args) {
@@ -9,9 +9,9 @@ public class Aula08ArraysMultidimensionais02 {
 
         for (int[] arrBase : arrInt) {
             for (int num : arrBase) {
-                System.out.print(num+" ");
+                System.out.print(num + " ");
             }
-        System.out.println();
+            System.out.println();
         }
     }
 }

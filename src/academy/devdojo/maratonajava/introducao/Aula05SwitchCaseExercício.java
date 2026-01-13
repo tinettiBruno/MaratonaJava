@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java;
+package academy.devdojo.maratonajava.introducao;
 
 public class Aula05SwitchCaseExercício {
     /* Dados valores de 1 à 7, imprima se é dia útil ou final de semana *Utilizando switch-case

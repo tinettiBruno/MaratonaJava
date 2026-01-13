@@ -5,7 +5,7 @@ out/
 .kotlin
 .idea/
 *.iml
-src/academy/devdojo/maratona/java/A00testes.java
+src/academy/devdojo/maratonajava/introducao/A00testes.java
 
 ### Eclipse ###
 .apt_generated

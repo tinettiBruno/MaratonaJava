@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java;
+package academy.devdojo.maratonajava.introducao;
 
 public class Aula06ExercicioFor {
     public static void main(String[] args) {
