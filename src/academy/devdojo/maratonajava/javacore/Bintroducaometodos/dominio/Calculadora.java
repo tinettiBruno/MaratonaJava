@@ -12,7 +12,7 @@ public class Calculadora {
     }
 
     public void multiplyTwoNumbers(int a, int b) {
-        int multi = a*b;
+        int multi = a * b;
         System.out.println(a + " * " + b + " = " + multi);
     }
 
@@ -20,6 +20,22 @@ public class Calculadora {
         if (b == 0) {
             return 0;
         }
-        return a/b;
+        return a / b;
+    }
+
+    public void sumArr(int[] arrInt) {
+        int sum = 0;
+        for (int num : arrInt) {
+            sum += num;
+        }
+        System.out.println("A soma dos termos é: " + sum);
+    }
+
+    public void sumVarArgs(int... nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        System.out.println("A soma dos termos é: " + sum);
     }
 }
