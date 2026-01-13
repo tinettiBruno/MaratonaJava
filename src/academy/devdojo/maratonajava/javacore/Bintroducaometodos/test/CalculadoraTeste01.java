@@ -7,6 +7,7 @@ public class CalculadoraTeste01 {
         Calculadora calculadora = new Calculadora();
         calculadora.sumTwoNumbers(15, 15);
         calculadora.subtractTwoNumbers(15,1);
+        calculadora.multiplyTwoNumbers(2, 10);
         System.out.println("Finalizando calculadora");
     }
 }

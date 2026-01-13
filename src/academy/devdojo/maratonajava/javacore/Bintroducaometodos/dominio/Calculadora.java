@@ -10,4 +10,9 @@ public class Calculadora {
         int sub = a - b;
         System.out.println(a + " - " + b + " = " + sub);
     }
+
+    public void multiplyTwoNumbers(int a, int b) {
+        int multi = a*b;
+        System.out.println(a + " * " + b + " = " + multi);
+    }
 }
