@@ -6,9 +6,9 @@ public class FuncionarioTeste01 {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
 
-        funcionario.name = "Fabrício";
-        funcionario.age = 19;
-        funcionario.salaries = new double[]{1300, 1500, 1800};
+        funcionario.setName("Fabrício");
+        funcionario.setAge(19);
+        funcionario.setSalaries(new double[]{1300, 1500, 1800});
 
         funcionario.printData();
 //        funcionario.average();
