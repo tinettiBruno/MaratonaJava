@@ -13,13 +13,13 @@ public class Anime {
         System.out.println(this.episodes);
     }
 
-    public void init(String name, String type, int episodes) {
+    public void init(String name, String type, int episodes) { // metodo original
         this.name = name;
         this.type = type;
         this.episodes = episodes;
     }
 
-    public void init(String name, String type, int episodes, String genre) {
+    public void init(String name, String type, int episodes, String genre) { // sobrecarga de metodo
         this.init(name, type, episodes);
         this.genre = genre;
     }
