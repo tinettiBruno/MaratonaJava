@@ -7,17 +7,24 @@ public class Anime {
     private String type;
     private String genre;
     private int episodes;
+    private String studio;
 
     public Anime(String name, String type, int episodes, String genre) { // Construtor
-        System.out.println("Dentro do construtor"); // o metodo construtor é sempre chamado na inicialização
+        this();
         this.name = name;
         this.type = type;
         this.episodes = episodes;
         this.genre = genre;
     };
 
-    public Anime() { // sobrecarga de Contrutor
+    public Anime(String name, String type, int episodes, String genre, String studio) { // Construtor
+        this(name, type, episodes, genre);
+        this.studio = studio;
+    };
 
+
+    public Anime() { // sobrecarga de Contrutor
+        System.out.println("Dentro do construtor sem argumentos");
     }
 
     public void print() {
@@ -25,5 +32,6 @@ public class Anime {
         System.out.println(this.genre);
         System.out.println(this.type);
         System.out.println(this.episodes);
+        System.out.println(this.studio);
     }
 }
